@@ -64,4 +64,4 @@ These rules ensure that:
 - The quarantine VLAN can reach nothing.
 - All VLANs can reach the management VLAN.
 
-This configuration provides a secure and controlled network environment for your VLANs.
+This configuration provides a secure and controlled network environment for the VLANs.
