@@ -1,0 +1,30 @@
+vlan database
+
+vlan 10
+ name Management
+
+vlan 20
+ name Users
+
+vlan 30
+ name Servers
+
+vlan 99
+ name Quarantine
+
+
+interface range FastEthernet0/2-4
+ switchport mode access
+ switchport access vlan 20
+
+interface FastEthernet0/5
+ switchport mode access
+ switchport access vlan 30
+
+interface FastEthernet0/1
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20,30,99
+
+
+ip default-gateway 10.10.1.1
+ip address 10.10.1.2 255.255.255.0
