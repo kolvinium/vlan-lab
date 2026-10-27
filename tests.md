@@ -62,4 +62,4 @@
   - `journalctl -b`
   - **Expected Result**: System logs should show no critical errors related to networking or routing.
 
-This checklist ensures that all aspects of the VLAN lab configuration are verified and working as expected. Let me know if you need any further assistance!
+This checklist ensures that all aspects of the VLAN lab configuration are verified and working as expected.
