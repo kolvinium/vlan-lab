@@ -39,4 +39,4 @@ graph TD
 - `pi-router.md`: Raspberry Pi router configuration
 - `tests.md`: Test checklist
 
-This lab provides a secure and controlled network environment for your VLANs. Let me know if you need any further assistance!
+This lab provides a secure and controlled network environment for your VLANs. Let me know if you have any concerns or questions at kolvinmayer33@gmail.com
